@@ -1,1 +1,114 @@
 /* Denna fil skall innehålla din CSS kod */
+#wrapper {
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 'hd'
+    'main'
+    'ft';
+
+}
+ 
+body {
+    background-color: beige;
+}
+
+header {
+    grid-area: hd;
+    background-color: plum;
+
+}
+
+header h1 {
+    text-align: center;
+
+}
+
+nav { 
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 1rem 0,5rem 1rem 0,5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-align: none;
+}
+
+main { 
+    grid-area: main;
+    background-color: yellow;
+}
+
+footer { 
+    grid-area: ft;
+    background-color: bisque; 
+}
+
+nav ul li:hover {
+    background-color: black;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        background-color: #ffccdd;
+    }
+
+    header {
+        position: relative;
+    }
+
+    #hamburger {
+        /* border: 1px solid #0000; */
+        height: 1.5rem;
+        width: 2.2rem;
+        position: absolute;
+        top: 0.6rem;
+        right: 0.7rem;
+    }
+
+    #hamburger div {
+        border: 1.5px solid black;
+        margin: 0.35rem;
+    }
+
+
+    nav {
+        justify-content: center;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    nav.active {
+        max-height: 1000px;
+        transition: max-height 1s;
+    }
+
+    nav ul {
+        display: block;
+        padding: 0;
+    }
+    
+    nav ul li {
+        text-align: center;
+    }
+
+    nav ul li a {
+        width: 100%;
+        height: 100%;
+    }
+
+    nav ul li:hover {
+        background-color: rgb(147, 174, 148);
+    }
+
+}
