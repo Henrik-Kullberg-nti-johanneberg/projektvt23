@@ -1,4 +1,384 @@
 /* Denna fil skall innehålla din CSS kod */
+
 .menu-P75{
     align-items: center;
+    background-color: #0a8ed9;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    overflow: hidden;
+    padding: 6rem 0;
+    position: relative;
+    width: 100%;
 }
+
+.menu-nuu {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-right: 5.6rem;
+    width: 19.2rem;
+}
+
+.auto-group-akvb-Wqu {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    display: flex;
+    flex-shrink: 0;
+    padding: 0.8rem 5.5rem 0.8rem 5.1rem;
+    width: 100%;
+}
+
+.ichome-prb {
+    flex-shrink: 0;
+    height: 2.4rem;
+    margin-right: 1.6rem;
+    object-fit: contain;
+    vertical-align: top;
+    width: 2.4rem;
+}
+
+.home-MLj {
+    color: #0a8ed9;
+    flex-shrink: 0;
+    font-family: Raleway, 'Source Sans Pro';
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.175;
+    margin-top: 0.1rem;
+    white-space: nowrap;
+}
+
+.auto-group-seqm-2By {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding: 3.2rem 0rem 0rem 2.8rem;
+  row-gap: 3.2rem;
+  width: 100%;
+}
+
+  .profile-iqV {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    margin: 0rem 5.4rem 0rem 2.3rem;
+    width: calc(100% - 7.7rem);
+  }
+
+    .icprofile-SFh {
+      flex-shrink: 0;
+      height: 2.4rem;
+      margin-right: 1.6rem;
+      object-fit: contain;
+      vertical-align: top;
+      width: 2.4rem;
+    }
+
+    .profile-wy9 {
+      color: #ffffff;
+      flex-shrink: 0;
+      font-family: Raleway, 'Source Sans Pro';
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 1.175;
+      margin-top: 0.1rem;
+      white-space: nowrap;
+    }
+  
+  .nearby-gA3 {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-shrink: 0;
+    margin: 0rem 4.6rem 0rem 2.3rem;
+    padding: 0.2rem 0rem 0.3rem 0.5rem;
+    width: calc(100% - 6.9rem);
+  }
+    .iclocation-nD5 {
+      flex-shrink: 0;
+      height: 1.6899rem;
+      margin: 0.19rem 2.1rem 0rem 0rem;
+      object-fit: contain;
+      vertical-align: top;
+      width: 1.4rem;
+    }
+    .nearby-WPy {
+      color: #ffffff;
+      flex-shrink: 0;
+      font-family: Raleway, 'Source Sans Pro';
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 1.175;
+      white-space: nowrap;
+    }
+  
+  .vector-1-SoR {
+    flex-shrink: 0;
+    height: 0;
+    object-fit: contain;
+    vertical-align: top;
+    width: 16.4rem;
+  }
+  .bookmark-ADd {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    margin: 0rem 2.5rem 0rem 2.3rem;
+    width: calc(100% - 4.8rem);
+  }
+    .icbookmark-67H {
+      flex-shrink: 0;
+      height: 2.4rem;
+      margin-right: 1.6rem;
+      object-fit: contain;
+      vertical-align: top;
+      width: 2.4rem;
+    }
+
+    .bookmark-EUP {
+      color: #ffffff;
+      flex-shrink: 0;
+      font-family: Raleway, 'Source Sans Pro';
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 1.175;
+      margin-top: 0.1rem;
+      white-space: nowrap;
+    }
+  
+  .notification-NKh {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    margin: 0rem 1.7rem 0rem 2.3rem;
+    width: calc(100% - 4rem);
+  }
+    .icnotification-6mV {
+      flex-shrink: 0;
+      height: 2.4rem;
+      margin-right: 1.6rem;
+      object-fit: contain;
+      position: relative;
+      vertical-align: top;
+      width: 2.4rem;
+    }
+    .notification-qUB {
+      color: #ffffff;
+      flex-shrink: 0;
+      font-family: Raleway, 'Source Sans Pro';
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 1.175;
+      margin-bottom: 0.1rem;
+      white-space: nowrap;
+    }
+  
+  .message-Lvj {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    margin: 0rem 3.4rem 0rem 2.3rem;
+    width: calc(100% - 5.7rem);
+  }
+    .icmessage-gjh {
+      flex-shrink: 0;
+      height: 2.4rem;
+      margin-right: 1.6rem;
+      object-fit: contain;
+      position: relative;
+      vertical-align: top;
+      width: 2.4rem;
+    }
+    .message-RhH {
+      color: #ffffff;
+      flex-shrink: 0;
+      font-family: Raleway, 'Source Sans Pro';
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 1.175;
+      margin-top: 0.1rem;
+      white-space: nowrap;
+    }
+  
+  .vector-2-N6j {
+    flex-shrink: 0;
+    height: 0;
+    object-fit: contain;
+    vertical-align: top;
+    width: 16.4rem;
+  }
+  .setting-K1y {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    margin: 0rem 4.8rem 0rem 2.3rem;
+    width: calc(100% - 7.1rem);
+  }
+    .icsetting-dHZ {
+      flex-shrink: 0;
+      height: 2.4rem;
+      margin-right: 1.6rem;
+      object-fit: contain;
+      vertical-align: top;
+      width: 2.4rem;
+    }
+    .setting-AoH {
+      color: #ffffff;
+      flex-shrink: 0;
+      font-family: Raleway, 'Source Sans Pro';
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 1.175;
+      margin-top: 0.1rem;
+      white-space: nowrap;
+    }
+  
+  .help-6S3 {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    margin: 0rem 6.5rem 0rem 2.3rem;
+    width: calc(100% - 8.8rem);
+  }
+    .ichelp-2ab {
+      flex-shrink: 0;
+      height: 2.4rem;
+      margin-right: 1.6rem;
+      object-fit: contain;
+      vertical-align: top;
+      width: 2.4rem;
+    }
+
+
+    .help-a6K {
+      color: #ffffff;
+      flex-shrink: 0;
+      font-family: Raleway, 'Source Sans Pro';
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 1.175;
+      margin-top: 0.1rem;
+      white-space: nowrap;
+    }
+  
+  .logout-hgj {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    margin: 0rem 4.8rem 0rem 2.3rem;
+    width: calc(100% - 7.1rem);
+  }
+    .iclogout-3kb {
+      flex-shrink: 0;
+      height: 2.4rem;
+      margin-right: 1.6rem;
+      object-fit: contain;
+      vertical-align: top;
+      width: 2.4rem;
+    }
+    .logout-bGK {
+      color: #ffffff;
+      flex-shrink: 0;
+      font-family: Raleway, 'Source Sans Pro';
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 1.175;
+      margin-bottom: 0.1rem;
+      white-space: nowrap;
+    }
+  
+
+.home-screen-81M {
+align-items: center;
+background-color: #f9f9f9;
+border-radius: 1.714rem;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+flex-shrink: 0;
+height: 69.2rem;
+overflow: hidden;
+padding: 2.054rem 0rem 0rem 1.712rem;
+position: relative;
+width: 31.9581rem;
+}
+.auto-group-bdb5-CX1 {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  height: 4.0232rem;
+  margin: 0rem 1.704rem 1.883rem 0rem;
+}
+  .auto-group-pfnf-Kbd {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: calc(100% - 0.04rem);
+    margin: 0rem 0.263rem 0.04rem 0rem;
+  }
+    .location-3nX {
+      color: #828282;
+      flex-shrink: 0;
+      font-family: Raleway, 'Source Sans Pro';
+      font-size: 1.0272rem;
+      font-weight: 400;
+      line-height: 1.175;
+      margin-bottom: 0.5832rem;
+      white-space: nowrap;
+    }
+    .jakarta-BNw {
+      color: #000000;
+      flex-shrink: 0;
+      font-family: Raleway, 'Source Sans Pro';
+      font-size: 1.712rem;
+      font-weight: 500;
+      line-height: 1.175;
+      white-space: nowrap;
+    }
+  
+  .icarrow-down-KEF {
+    flex-shrink: 0;
+    height: 2.0544rem;
+    margin: 1.969rem 18.279rem 0rem 0rem;
+    object-fit: contain;
+    vertical-align: top;
+    width: 2.0544rem;
+  }
+  .icnotification-qTV {
+    flex-shrink: 0;
+    height: 2.0453rem;
+    margin-bottom: 0.6325rem;
+    object-fit: contain;
+    position: relative;
+    vertical-align: top;
+    width: 2.0453rem;
+  }
+
+.auto-group-bnh5-B1Z {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  height: 4.1088rem;
+  margin: 0rem 1.57rem 1.541rem 0rem;
+  width: calc(100% - 1.5702rem);
+}
+  .search-bar-Vnw {
+    align-items: center;
+    background-color: #f6f6f6;
+    border-radius: 0.856rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-shrink: 0;
+    height: 100%;
+    margin-right: 0.6848rem;
+    overflow: hidden;
+    padding: 1.027rem 5.931rem 1.027rem 1.41rem;
+    position: relative;
+    width: 23.8824rem;
+
+  }
