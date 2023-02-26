@@ -1,7 +1,7 @@
 /* Denna fil skall innehålla din CSS kod */
 
 html {
-	font-size:62.5%;
+	font: size 100%;
 }
 * {
 	margin: 0;
@@ -14,8 +14,10 @@ input {
 	border: none;
 }
 body {
-  width: 37.5rem;
-}.home-screen-2Vn {
+  width: fit-content;
+
+}
+.home-screen-2Vn {
   box-sizing: border-box;
   padding: 2.4rem 0rem 3.1rem 2rem;
   width: 100%;
@@ -24,7 +26,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   border-radius: 2rem;
 }
 .home-screen-2Vn .auto-group-acmd-Pje {
