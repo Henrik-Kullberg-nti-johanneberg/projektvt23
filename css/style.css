@@ -1,1310 +1,713 @@
 /* Denna fil skall innehålla din CSS kod */
 
-.menu-P75{
-    align-items: center;
-    background-color: #08517a;
-    border-radius: 2rem;
-    box-sizing: border-box;
-    display: flex;
-    overflow: hidden;
-    padding: 6rem 0;
-    position: relative;
-    width: 100%;
+html {
+	font-size:62.5%;
 }
-.btn {
-  border: none;
-  background-color: inherit;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-  display: inline-block;
+* {
+	margin: 0;
+	padding: 0;
 }
-
-.btn:hover {background: #4054ee;}
-
-.menu-nuu {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 0;
-    margin-right: 5.6rem;
-    width: 19.2rem;
+ul, li {
+	list-style: none;
 }
-
-.auto-group-akvb-Wqu {
-    align-items: center;
-    background-color: #ffffff;
-    border-radius: 2rem;
-    display: flex;
-    flex-shrink: 0;
-    padding: 0.8rem 5.5rem 0.8rem 5.1rem;
-    width: 100%;
+input {
+	border: none;
 }
-
-.ichome-prb {
-    flex-shrink: 0;
-    height: 2.4rem;
-    margin-right: 1.6rem;
-    object-fit: contain;
-    vertical-align: top;
-    width: 2.4rem;
-}
-
-.home-MLj {
-    color: #0a8ed9;
-    flex-shrink: 0;
-    font-family: Raleway, 'Source Sans Pro';
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 1.175;
-    margin-top: 0.1rem;
-    white-space: nowrap;
-}
-
-.auto-group-seqm-2By {
-  align-items: center;
+body {
+  width: 37.5rem;
+}.home-screen-2Vn {
   box-sizing: border-box;
+  padding: 2.4rem 0rem 3.1rem 2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  border-radius: 2rem;
+}
+.home-screen-2Vn .auto-group-acmd-Pje {
+  margin: 0rem 2rem 2.2rem 0rem;
+  width: calc(100% - 2rem);
+  height: 4.7rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-acmd-Pje .location-QHN {
+  margin-right: 21.5rem;
+  width: 9.6rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-acmd-Pje .location-QHN .location-XMz {
+  margin-bottom: 0.7rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: #828282;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-screen-2Vn .auto-group-acmd-Pje .location-QHN .auto-group-xuvr-bse {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.home-screen-2Vn .auto-group-acmd-Pje .location-QHN .auto-group-xuvr-bse .jakarta-udS {
+  margin: 0rem 0.4rem 0.1rem 0rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.175;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-acmd-Pje .location-QHN .auto-group-xuvr-bse .icarrow-down-2TA {
+  margin-top: 0.1rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-acmd-Pje .icnotification-Xep {
+  margin-bottom: 0.7rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-oe1u-THa {
+  margin: 0rem 2rem 1.8rem 0rem;
+  width: calc(100% - 2rem);
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-oe1u-THa .search-bar-xEL {
+  margin-right: 0.8rem;
+  box-sizing: border-box;
+  padding: 1.2rem 6.9rem 1.2rem 1.647rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-oe1u-THa .search-bar-xEL .icsearch-SfJ {
+  margin-right: 1.0819rem;
+  width: 2.4708rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-oe1u-THa .search-bar-xEL .search-address-or-near-you-MXN {
+  margin-top: 0.1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: #848484;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-oe1u-THa .icfilter-emN {
+  width: 4.8rem;
+  height: 4.8rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .category-BFW {
+  margin-bottom: 2.7rem;
+  width: 40.5rem;
+  height: 4.1rem;
+  display: flex;
+  column-gap: 1.2rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .category-BFW .auto-group-g5yz-6dN {
+  margin-top: 0.2rem;
+  width: 6.9rem;
+  height: 3.9rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .category-BFW .auto-group-g5yz-6dN .shadow-dNQ {
+  width: 5.7rem;
+  height: 2rem;
+  position: absolute;
+  left: 0.5rem;
+  top: 1.9rem;
+  filter: blur(0.6rem);
+  background: linear-gradient(-180deg, rgba(159, 217, 250, 0.2399999946) -22.93%, rgba(9, 141, 216, 0.2399999946) 131.41%);
+  border-radius: 1rem;
+}
+.home-screen-2Vn .category-BFW .auto-group-g5yz-6dN .house-active-6Fz {
+  width: 6.9rem;
+  height: 3.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.175;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0.8rem 2.4rem rgba(54, 59, 100, 0.0799999982);
+  background: linear-gradient(-180deg, #9fd9fa -22.93%, #098dd8 131.41%);
+  border-radius: 1rem;
+}
+.home-screen-2Vn .category-BFW .apartment-GZn {
+  margin: 0.2rem 0rem 0.5rem 0rem;
+  width: 9.2rem;
+  height: calc(100% - 0.7rem);
+  overflow: hidden;
+  position: relative;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: #848484;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .category-BFW .hotel-YXJ {
+  margin: 0.2rem 0rem 0.5rem 0rem;
+  width: 6.3rem;
+  height: calc(100% - 0.7rem);
+  overflow: hidden;
+  position: relative;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: #848484;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .category-BFW .villa-P28 {
+  margin: 0.2rem 0rem 0.5rem 0rem;
+  width: 5.6rem;
+  height: calc(100% - 0.7rem);
+  overflow: hidden;
+  position: relative;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: #848484;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .category-BFW .auto-group-hert-EHe {
+  margin-bottom: 0.3rem;
+  width: 7.7rem;
+  height: 3.8rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .category-BFW .auto-group-hert-EHe .cottage-yFE {
+  width: 7.7rem;
+  height: 3.4rem;
+  position: absolute;
+  left: 0;
+  top: 0.2rem;
+  overflow: hidden;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: #828282;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+  border-radius: 1rem;
+}
+.home-screen-2Vn .category-BFW .auto-group-hert-EHe .shadow-dag {
+  width: 2rem;
+  height: 3.8rem;
+  position: absolute;
+  left: 0.7rem;
+  top: 0;
+  background: linear-gradient(-90deg, #ffffff 100%, rgba(255, 255, 255, 0) -0%);
+}
+.home-screen-2Vn .auto-group-mwbd-Ljz {
+  margin: 0rem 2rem 2.4rem 0rem;
+  width: calc(100% - 2rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-mwbd-Ljz .near-from-you-V76 {
+  margin-right: 17.3rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.175;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-mwbd-Ljz .see-more-CGQ {
+  margin-top: 0.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: #848484;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-sgjh-7uA {
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 28.4rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-sgjh-7uA .auto-group-8ccw-s7e {
+  margin-right: 2.4rem;
+  width: 22.2rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-sgjh-7uA .auto-group-8ccw-s7e .shadow-QtG {
+  width: 18.2rem;
+  height: 5.4rem;
+  position: absolute;
+  left: 2rem;
+  top: 23rem;
+  filter: blur(1rem);
+  background-color: rgba(0, 0, 0, 0.1000000015);
+  border-radius: 2rem;
+}
+.home-screen-2Vn .auto-group-sgjh-7uA .auto-group-8ccw-s7e .dreamsvile-house-h6g {
+  box-sizing: border-box;
+  padding: 2rem 1.6rem 1.5rem 2rem;
+  width: 22.2rem;
+  height: 27.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/image-eb2.png');
+  background: linear-gradient(180deg, rgba(12, 12, 12, 0) 37.57%, rgba(0, 0, 0, 0.8000000119) 100%);
+  border-radius: 2rem;
+}
+.home-screen-2Vn .auto-group-sgjh-7uA .auto-group-8ccw-s7e .dreamsvile-house-h6g .icnear-ZPn {
+  margin: 0rem 0rem 17.1rem 11.3rem;
+  box-sizing: border-box;
+  padding: 0.5rem 1rem 0.4rem 1.1rem;
+  width: calc(100% - 11.3rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2399999946);
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-sgjh-7uA .auto-group-8ccw-s7e .dreamsvile-house-h6g .icnear-ZPn .iclocation-TEG {
+  margin: 0rem 0.7rem 0.1rem 0rem;
+  width: 1rem;
+  height: 1.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-sgjh-7uA .auto-group-8ccw-s7e .dreamsvile-house-h6g .icnear-ZPn .km-P7v {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-sgjh-7uA .auto-group-8ccw-s7e .dreamsvile-house-h6g .dreamsville-house-Vya {
+  margin: 0rem 4.5rem 0.8rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.175;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-sgjh-7uA .auto-group-8ccw-s7e .dreamsvile-house-h6g .jl-sultan-iskandar-muda-2Cp {
+  margin-right: 5.1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: #d6d6d6;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-sgjh-7uA .ascot-house-BV2 {
+  box-sizing: border-box;
+  padding: 2rem 1.4rem 1.5rem 2rem;
+  width: 22.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/image.png');
+  background: linear-gradient(180deg, rgba(12, 12, 12, 0) 37.57%, rgba(0, 0, 0, 0.8000000119) 100%);
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-sgjh-7uA .ascot-house-BV2 .icnear-JpY {
+  margin: 0rem 0rem 17.1rem 11.3rem;
+  box-sizing: border-box;
+  padding: 0.5rem 1rem 0.4rem 1.1rem;
+  width: calc(100% - 11.3rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2399999946);
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-sgjh-7uA .ascot-house-BV2 .icnear-JpY .iclocation-CQ8 {
+  margin: 0rem 0.7rem 0.1rem 0rem;
+  width: 1rem;
+  height: 1.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-sgjh-7uA .ascot-house-BV2 .icnear-JpY .km-jQ4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-sgjh-7uA .ascot-house-BV2 .ascot-house-qT6 {
+  margin: 0rem 9.3rem 0.8rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.175;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-sgjh-7uA .ascot-house-BV2 .jl-cilandak-tengah-8h6 {
+  margin-right: 8.1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: #d6d6d6;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-skh5-mzx {
+  margin: 0rem 2rem 2.4rem 0rem;
+  width: calc(100% - 2rem);
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-skh5-mzx .best-for-you-U8g {
+  margin-right: 19rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.175;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .auto-group-skh5-mzx .see-more-Qo2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: #848484;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .orchad-house-MiG {
+  margin: 0rem 5rem 2.4rem 0rem;
+  width: calc(100% - 5rem);
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .orchad-house-MiG .image-ty6 {
+  margin-right: 2rem;
+  width: 7.4rem;
+  height: 100%;
+  box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.0399999991), 0 0.2rem 0.6rem rgba(0, 0, 0, 0.0399999991), 0 1.6rem 2.4rem rgba(0, 0, 0, 0.0599999987);
+  background-color: #efefef;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .orchad-house-MiG .image-ty6 .auto-group-brwy-Foe {
+  width: 7.4rem;
+  height: 7rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+}
+.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi {
+  width: 21.1rem;
+  height: 100%;
+  align-items: center;
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  padding: 3.2rem 0rem 0rem 2.8rem;
-  row-gap: 3.2rem;
+}
+.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-bxzv-3Uc {
+  box-sizing: border-box;
+  padding-bottom: 0.4rem;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
 }
-
-  .profile-iqV {
-    align-items: center;
-    display: flex;
-    flex-shrink: 0;
-    margin: 0rem 5.4rem 0rem 2.3rem;
-    width: calc(100% - 7.7rem);
-  }
-
-    .icprofile-SFh {
-      flex-shrink: 0;
-      height: 2.4rem;
-      margin-right: 1.6rem;
-      object-fit: contain;
-      vertical-align: top;
-      width: 2.4rem;
-    }
-
-    .profile-wy9 {
-      color: #ffffff;
-      flex-shrink: 0;
-      font-family: Raleway, 'Source Sans Pro';
-      font-size: 1.6rem;
-      font-weight: 400;
-      line-height: 1.175;
-      margin-top: 0.1rem;
-      white-space: nowrap;
-    }
-  
-  .nearby-gA3 {
-    align-items: center;
-    box-sizing: border-box;
-    display: flex;
-    flex-shrink: 0;
-    margin: 0rem 4.6rem 0rem 2.3rem;
-    padding: 0.2rem 0rem 0.3rem 0.5rem;
-    width: calc(100% - 6.9rem);
-  }
-    .iclocation-nD5 {
-      flex-shrink: 0;
-      height: 1.6899rem;
-      margin: 0.19rem 2.1rem 0rem 0rem;
-      object-fit: contain;
-      vertical-align: top;
-      width: 1.4rem;
-    }
-    .nearby-WPy {
-      color: #ffffff;
-      flex-shrink: 0;
-      font-family: Raleway, 'Source Sans Pro';
-      font-size: 1.6rem;
-      font-weight: 400;
-      line-height: 1.175;
-      white-space: nowrap;
-    }
-  
-  .vector-1-SoR {
-    flex-shrink: 0;
-    height: 0;
-    object-fit: contain;
-    vertical-align: top;
-    width: 16.4rem;
-  }
-  .bookmark-ADd {
-    align-items: center;
-    display: flex;
-    flex-shrink: 0;
-    margin: 0rem 2.5rem 0rem 2.3rem;
-    width: calc(100% - 4.8rem);
-  }
-    .icbookmark-67H {
-      flex-shrink: 0;
-      height: 2.4rem;
-      margin-right: 1.6rem;
-      object-fit: contain;
-      vertical-align: top;
-      width: 2.4rem;
-    }
-
-    .bookmark-EUP {
-      color: #ffffff;
-      flex-shrink: 0;
-      font-family: Raleway, 'Source Sans Pro';
-      font-size: 1.6rem;
-      font-weight: 400;
-      line-height: 1.175;
-      margin-top: 0.1rem;
-      white-space: nowrap;
-    }
-  
-  .notification-NKh {
-    align-items: center;
-    display: flex;
-    flex-shrink: 0;
-    margin: 0rem 1.7rem 0rem 2.3rem;
-    width: calc(100% - 4rem);
-  }
-    .icnotification-6mV {
-      flex-shrink: 0;
-      height: 2.4rem;
-      margin-right: 1.6rem;
-      object-fit: contain;
-      position: relative;
-      vertical-align: top;
-      width: 2.4rem;
-    }
-    .notification-qUB {
-      color: #ffffff;
-      flex-shrink: 0;
-      font-family: Raleway, 'Source Sans Pro';
-      font-size: 1.6rem;
-      font-weight: 400;
-      line-height: 1.175;
-      margin-bottom: 0.1rem;
-      white-space: nowrap;
-    }
-  
-  .message-Lvj {
-    align-items: center;
-    display: flex;
-    flex-shrink: 0;
-    margin: 0rem 3.4rem 0rem 2.3rem;
-    width: calc(100% - 5.7rem);
-  }
-    .icmessage-gjh {
-      flex-shrink: 0;
-      height: 2.4rem;
-      margin-right: 1.6rem;
-      object-fit: contain;
-      position: relative;
-      vertical-align: top;
-      width: 2.4rem;
-    }
-    .message-RhH {
-      color: #ffffff;
-      flex-shrink: 0;
-      font-family: Raleway, 'Source Sans Pro';
-      font-size: 1.6rem;
-      font-weight: 400;
-      line-height: 1.175;
-      margin-top: 0.1rem;
-      white-space: nowrap;
-    }
-  
-  .vector-2-N6j {
-    flex-shrink: 0;
-    height: 0;
-    object-fit: contain;
-    vertical-align: top;
-    width: 16.4rem;
-  }
-  .setting-K1y {
-    align-items: center;
-    display: flex;
-    flex-shrink: 0;
-    margin: 0rem 4.8rem 0rem 2.3rem;
-    width: calc(100% - 7.1rem);
-  }
-    .icsetting-dHZ {
-      flex-shrink: 0;
-      height: 2.4rem;
-      margin-right: 1.6rem;
-      object-fit: contain;
-      vertical-align: top;
-      width: 2.4rem;
-    }
-    .setting-AoH {
-      color: #ffffff;
-      flex-shrink: 0;
-      font-family: Raleway, 'Source Sans Pro';
-      font-size: 1.6rem;
-      font-weight: 400;
-      line-height: 1.175;
-      margin-top: 0.1rem;
-      white-space: nowrap;
-    }
-  
-  .help-6S3 {
-    align-items: center;
-    display: flex;
-    flex-shrink: 0;
-    margin: 0rem 6.5rem 0rem 2.3rem;
-    width: calc(100% - 8.8rem);
-  }
-    .ichelp-2ab {
-      flex-shrink: 0;
-      height: 2.4rem;
-      margin-right: 1.6rem;
-      object-fit: contain;
-      vertical-align: top;
-      width: 2.4rem;
-    }
-
-
-    .help-a6K {
-      color: #ffffff;
-      flex-shrink: 0;
-      font-family: Raleway, 'Source Sans Pro';
-      font-size: 1.6rem;
-      font-weight: 400;
-      line-height: 1.175;
-      margin-top: 0.1rem;
-      white-space: nowrap;
-    }
-  
-  .logout-hgj {
-    align-items: center;
-    display: flex;
-    flex-shrink: 0;
-    margin: 0rem 4.8rem 0rem 2.3rem;
-    width: calc(100% - 7.1rem);
-  }
-    .iclogout-3kb {
-      flex-shrink: 0;
-      height: 2.4rem;
-      margin-right: 1.6rem;
-      object-fit: contain;
-      vertical-align: top;
-      width: 2.4rem;
-    }
-    .logout-bGK {
-      color: #ffffff;
-      flex-shrink: 0;
-      font-family: Raleway, 'Source Sans Pro';
-      font-size: 1.6rem;
-      font-weight: 400;
-      line-height: 1.175;
-      margin-bottom: 0.1rem;
-      white-space: nowrap;
-    }
-  
-
-.home-screen-81M {
-align-items: center;
-background-color: #f9f9f9;
-border-radius: 1.714rem;
-box-sizing: border-box;
-display: flex;
-flex-direction: column;
-flex-shrink: 0;
-height: 69.2rem;
-overflow: hidden;
-padding: 2.054rem 0rem 0rem 1.712rem;
-position: relative;
-width: 31.9581rem;
+.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-bxzv-3Uc .orchad-house-bW8 {
+  margin: 0rem 0rem 0.8rem 0.4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.175;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
 }
-.auto-group-bdb5-CX1 {
+.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-bxzv-3Uc .rp-2500000000-year-7zG {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: #0a8ed9;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa {
+  width: 100%;
+  height: 2.4rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa .bedroom-zYG {
+  margin-right: 1.9rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa .bedroom-zYG .icbed-u9S {
+  margin-right: 0.8rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa .bedroom-zYG .bedroom-1yA {
+  margin-top: 0.1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: #848484;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa .bathroom-ALG {
+  box-sizing: border-box;
+  padding: 0.4rem 0rem 0.4rem 0.4rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa .bathroom-ALG .icbath-uYk {
+  margin: 0rem 1.2rem 0.057rem 0rem;
+  width: 1.6rem;
+  height: 1.5431rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa .bathroom-ALG .bathroom-qhJ {
+  margin-top: 0.1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: #848484;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .the-hollies-house-Ltx {
+  margin-right: 5rem;
+  width: calc(100% - 5rem);
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .the-hollies-house-Ltx .image-67S {
+  margin-right: 2rem;
+  width: 7.4rem;
+  height: 100%;
+  box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.0399999991), 0 0.2rem 0.6rem rgba(0, 0, 0, 0.0399999991), 0 1.6rem 2.4rem rgba(0, 0, 0, 0.0599999987);
+  background-color: #efefef;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .the-hollies-house-Ltx .image-67S .auto-group-dtet-r6c {
+  width: 7.4rem;
+  height: 7rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+}
+.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA {
+  width: 21.1rem;
+  height: 100%;
   align-items: center;
   display: flex;
+  flex-direction: column;
   flex-shrink: 0;
-  height: 4.0232rem;
-  margin: 0rem 1.704rem 1.883rem 0rem;
 }
-  .auto-group-pfnf-Kbd {
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 0;
-    height: calc(100% - 0.04rem);
-    margin: 0rem 0.263rem 0.04rem 0rem;
-  }
-    .location-3nX {
-      color: #828282;
-      flex-shrink: 0;
-      font-family: Raleway, 'Source Sans Pro';
-      font-size: 1.0272rem;
-      font-weight: 400;
-      line-height: 1.175;
-      margin-bottom: 0.5832rem;
-      white-space: nowrap;
-    }
-    .jakarta-BNw {
-      color: #000000;
-      flex-shrink: 0;
-      font-family: Raleway, 'Source Sans Pro';
-      font-size: 1.712rem;
-      font-weight: 500;
-      line-height: 1.175;
-      white-space: nowrap;
-    }
-  
-  .icarrow-down-KEF {
-    flex-shrink: 0;
-    height: 2.0544rem;
-    margin: 1.969rem 18.279rem 0rem 0rem;
-    object-fit: contain;
-    vertical-align: top;
-    width: 2.0544rem;
-  }
-  .icnotification-qTV {
-    flex-shrink: 0;
-    height: 2.0453rem;
-    margin-bottom: 0.6325rem;
-    object-fit: contain;
-    position: relative;
-    vertical-align: top;
-    width: 2.0453rem;
-  }
-
-.auto-group-bnh5-B1Z {
-  align-items: center;
+.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-p91h-tJC {
+  box-sizing: border-box;
+  padding-bottom: 0.4rem;
+  width: 100%;
   display: flex;
+  flex-direction: column;
   flex-shrink: 0;
-  height: 4.1088rem;
-  margin: 0rem 1.57rem 1.541rem 0rem;
-  width: calc(100% - 1.5702rem);
 }
-  .search-bar-Vnw {
-    align-items: center;
-    background-color: #f6f6f6;
-    border-radius: 0.856rem;
-    box-sizing: border-box;
-    display: flex;
-    flex-shrink: 0;
-    height: 100%;
-    margin-right: 0.6848rem;
-    overflow: hidden;
-    padding: 1.027rem 5.931rem 1.027rem 1.41rem;
-    position: relative;
-    width: 23.8824rem;
-
-  }
-
-  .auto-group-akvb-Wqu {
-    align-items: center;
-    background-color: #ffffff;
-    border-radius: 2rem;
-    box-sizing: border-box;
-    display: flex;
-    flex-shrink: 0;
-    padding: 0.8rem 5.5rem 0.8rem 5.1rem;
-    width: 100%;
-  }
-    .ichome-prb {
-      flex-shrink: 0;
-      height: 2.4rem;
-      margin-right: 1.6rem;
-      object-fit: contain;
-      vertical-align: top;
-      width: 2.4rem;
-    }
-
-    .home-MLj {
-      color: #0a8ed9;
-      flex-shrink: 0;
-      font-family: Raleway, 'Source Sans Pro';
-      font-size: 1.6rem;
-      font-weight: 500;
-      line-height: 1.175;
-      margin-top: 0.1rem;
-      white-space: nowrap;
-    }
-        .icsearch-PtK {
-        flex-shrink: 0;
-        height: 2.0544rem;
-        margin-right: 0.926rem;
-        object-fit: contain;
-        vertical-align: top;
-        width: 2.115rem;
-      }
-      .search-address-or-near-you-8b1 {
-        color: #848484;
-        flex-shrink: 0;
-        font-family: Raleway, 'Source Sans Pro';
-        font-size: 1.0272rem;
-        font-weight: 400;
-        line-height: 1.175;
-        margin-top: 0.1016rem;
-        white-space: nowrap;
-      }
-    
-    .icfilter-3CB {
-      border-radius: 0.856rem;
-      flex-shrink: 0;
-      height: 4.1088rem;
-      object-fit: contain;
-      vertical-align: top;
-      width: 4.1088rem;
-    }
-  
-  .category-ksH {
-    align-items: center;
-    display: flex;
-    flex-shrink: 0;
-    height: 3.5096rem;
-    margin-bottom: 2.3112rem;
-    width: 34.6681rem;
-  }
-    .auto-group-zc6s-gF9 {
-      flex-shrink: 0;
-      height: 3.3384rem;
-      margin: 0.171rem 1.027rem 0rem 0rem;
-      position: relative;
-      width: 5.9064rem;
-    }
-      .shadow-oqZ {
-        background: linear-gradient(-180deg, rgba(159, 217, 250, 0.2399999946) -22.93%, rgba(9, 141, 216, 0.2399999946) 131.41%);
-        border-radius: 0.856rem;
-        filter: blur(0.5136rem);
-        height: 1.712rem;
-        left: 0.4279rem;
-        position: absolute;
-        top: 1.6264rem;
-        width: 4.8792rem;
-      }
-      .house-active-f75 {
-        align-items: center;
-        background: linear-gradient(-180deg, #9fd9fa -22.93%, #098dd8 131.41%);
-        border-radius: 0.856rem;
-        box-shadow: 0 0.6848rem 2.0544rem rgba(54, 59, 100, 0.0799999982);
-        color: #ffffff;
-        display: flex;
-        font-family: Raleway, 'Source Sans Pro';
-        font-size: 1.0272rem;
-        font-weight: 500;
-        height: 2.9104rem;
-        justify-content: center;
-        left: 0;
-        line-height: 1.175;
-        overflow: hidden;
-        position: absolute;
-        top: 0;
-        white-space: nowrap;
-        width: 5.9064rem;
-      }
-    
-    .apartment-sU3 {
-      align-items: center;
-      background-color: #f6f6f6;
-      border-radius: 0.856rem;
-      color: #848484;
-      display: flex;
-      flex-shrink: 0;
-      font-family: Raleway, 'Source Sans Pro';
-      font-size: 1.0272rem;
-      font-weight: 400;
-      height: calc(100% - 0.5992rem);
-      justify-content: center;
-      line-height: 1.175;
-      margin: 0.171rem 1.027rem 0.428rem 0rem;
-      overflow: hidden;
-      position: relative;
-      white-space: nowrap;
-      width: 7.8752rem;
-    }
-    .hotel-wD1 {
-      align-items: center;
-      background-color: #f6f6f6;
-      border-radius: 0.856rem;
-      color: #848484;
-      display: flex;
-      flex-shrink: 0;
-      font-family: Raleway, 'Source Sans Pro';
-      font-size: 1.0272rem;
-      font-weight: 400;
-      height: calc(100% - 0.5992rem);
-      justify-content: center;
-      line-height: 1.175;
-      margin: 0.171rem 1.027rem 0.428rem 0rem;
-      overflow: hidden;
-      position: relative;
-      white-space: nowrap;
-      width: 5.3928rem;
-    }
-    .villa-zwy {
-      align-items: center;
-      background-color: #f6f6f6;
-      border-radius: 0.856rem;
-      color: #848484;
-      display: flex;
-      flex-shrink: 0;
-      font-family: Raleway, 'Source Sans Pro';
-      font-size: 1.0272rem;
-      font-weight: 400;
-      height: calc(100% - 0.5992rem);
-      justify-content: center;
-      line-height: 1.175;
-      margin: 0.171rem 1.027rem 0.428rem 0rem;
-      overflow: hidden;
-      position: relative;
-      white-space: nowrap;
-      width: 4.7937rem;
-    }
-    .auto-group-x9sv-sks {
-      flex-shrink: 0;
-      height: 3.2528rem;
-      margin-bottom: 0.2568rem;
-      position: relative;
-      width: 6.5912rem;
-    }
-      .cottage-CYF {
-        align-items: center;
-        background-color: #f6f6f6;
-        border-radius: 0.856rem;
-        color: #828282;
-        display: flex;
-        font-family: Raleway, 'Source Sans Pro';
-        font-size: 1.0272rem;
-        font-weight: 400;
-        height: 2.9104rem;
-        justify-content: center;
-        left: 0;
-        line-height: 1.175;
-        overflow: hidden;
-        position: absolute;
-        top: 0.1712rem;
-        white-space: nowrap;
-        width: 6.5912rem;
-      }
-      .shadow-tAB {
-        background: linear-gradient(-90deg, #ffffff 100%, rgba(255, 255, 255, 0) -0%);
-        height: 3.2528rem;
-        left: 0.5993rem;
-        position: absolute;
-        top: 0;
-        width: 1.712rem;
-      }
-    
-  
-  .auto-group-3gdm-Bf5 {
-    align-items: center;
-    display: flex;
-    flex-shrink: 0;
-    margin: 0rem 1.592rem 1.981rem 0rem;
-    width: calc(100% - 1.5926rem);
-  }
-    .near-from-you-KFV {
-      color: #000000;
-      flex-shrink: 0;
-      font-family: Raleway, 'Source Sans Pro';
-      font-size: 1.3696rem;
-      font-weight: 500;
-      line-height: 1.175;
-      margin-right: 14.7536rem;
-      white-space: nowrap;
-    }
-    .see-more-F99 {
-      color: #848484;
-      flex-shrink: 0;
-      font-family: Raleway, 'Source Sans Pro';
-      font-size: 1.0272rem;
-      font-weight: 400;
-      line-height: 1.175;
-      margin-top: 0.1136rem;
-      white-space: nowrap;
-    }
-  
-  .auto-group-8n5u-z6j {
-    align-items: flex-start;
-    display: flex;
-    flex-shrink: 0;
-    height: 24.3104rem;
-    margin: 0rem 0rem 1.712rem 0rem;
-    width: calc(100% - 0.0002rem);
-  }
-    .auto-group-gjpw-uUb {
-      flex-shrink: 0;
-      height: 100%;
-      margin-right: 2.0544rem;
-      position: relative;
-      width: 19.0032rem;
-    }
-
-
-  
-    .shadow-F2f {
-        background-color: rgba(0, 0, 0, 0.1000000015);
-        border-radius: 1.712rem;
-        filter: blur(0.856rem);
-        height: 4.6224rem;
-        left: 1.7119rem;
-        position: absolute;
-        top: 19.688rem;
-        width: 15.5792rem;
-      }
-      .dreamsvile-house-m11 {
-        align-items: center;
-        background: linear-gradient(180deg, rgba(12, 12, 12, 0) 37.57%, rgba(0, 0, 0, 0.8000000119) 100%);
-        background-image: url('/api/try-prod-ap-southeast-1-first-cluster/projects/LM8vpea1t4T5bWi5fstBZ3/files/vector/995a294af572d1b2522a5dbef498ff4ec6b924b96bf25f45844cc350a7651e28a75edc246944660320976cf10e4c9ebec252b7f340c89b9a63fd668a40110a09?hash=06edfa5aa0f2b5ff5d5a7ccaec1692b454ea0091c873c0360cefefbaff513c27');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 1.712rem;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        height: 23.2833rem;
-        left: 0;
-        padding: 1.712rem 1.37rem 1.268rem 1.712rem;
-        position: absolute;
-        top: 0;
-        width: 19.0032rem;
-      }
-        .icnear-4F1 {
-          align-items: center;
-          background-color: rgba(0, 0, 0, 0.2399999946);
-          border-radius: 1.712rem;
-          box-sizing: border-box;
-          display: flex;
-          flex-shrink: 0;
-          margin: 0rem 0rem 14.638rem 9.673rem;
-          overflow: hidden;
-          padding: 0.428rem 0.852rem 0.326rem 0.942rem;
-          position: relative;
-          width: calc(100% - 9.6729rem);
-        }
-          .iclocation-Mzo {
-            flex-shrink: 0;
-            height: 1.0272rem;
-            margin: 0rem 0.599rem 0.102rem 0rem;
-            object-fit: contain;
-            vertical-align: top;
-            width: 0.856rem;
-          }
-          .km-HtT {
-            color: #ffffff;
-            flex-shrink: 0;
-            font-family: Raleway, 'Source Sans Pro';
-            font-size: 1.0272rem;
-            font-weight: 400;
-            line-height: 1.175;
-            white-space: nowrap;
-          }
-        
-        .dreamsville-house-cA3 {
-          color: #ffffff;
-          flex-shrink: 0;
-          font-family: Raleway, 'Source Sans Pro';
-          font-size: 1.3696rem;
-          font-weight: 500;
-          line-height: 1.175;
-          margin: 0rem 3.822rem 0.611rem 0rem;
-          white-space: nowrap;
-        }
-        .jl-sultan-iskandar-muda-wCK {
-          color: #d6d6d6;
-          flex-shrink: 0;
-          font-family: Raleway, 'Source Sans Pro';
-          font-size: 1.0272rem;
-          font-weight: 400;
-          line-height: 1.175;
-          margin-right: 4.4217rem;
-          white-space: nowrap;
-        }
-      
-    
-    .ascot-house-BMZ {
-      align-items: center;
-      background: linear-gradient(180deg, rgba(12, 12, 12, 0) 37.57%, rgba(0, 0, 0, 0.8000000119) 100%);
-      background-image: url('/api/try-prod-ap-southeast-1-first-cluster/projects/LM8vpea1t4T5bWi5fstBZ3/files/vector/f9f2f75d89dbe6c7460ee7e9e4b9f12e6bb13a0aa50692e377a423babfe8c13fcb2bd61015ef1f1484ddd62c980f37c1cf0461783c47c6f8b20d666d0b82aa0d?hash=dc05ff15b6cafd90eeb422ae3b0aece1f3fdb645d8bde960afe97eba4a0982bd');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border-radius: 1.712rem;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      flex-shrink: 0;
-      padding: 1.712rem 1.198rem 1.268rem 1.712rem;
-      width: 19.0032rem;
-    }
-      .icnear-6jR {
-        align-items: center;
-        background-color: rgba(0, 0, 0, 0.2399999946);
-        border-radius: 1.712rem;
-        box-sizing: border-box;
-        display: flex;
-        flex-shrink: 0;
-        margin: 0rem 0rem 14.638rem 9.673rem;
-        overflow: hidden;
-        padding: 0.428rem 0.823rem 0.326rem 0.942rem;
-        position: relative;
-        width: calc(100% - 9.6728rem);
-      }
-        .iclocation-1rP {
-          flex-shrink: 0;
-          height: 1.0272rem;
-          margin: 0rem 0.599rem 0.102rem 0rem;
-          object-fit: contain;
-          vertical-align: top;
-          width: 0.856rem;
-        }
-        .km-9Bu {
-          color: #ffffff;
-          flex-shrink: 0;
-          font-family: Raleway, 'Source Sans Pro';
-          font-size: 1.0272rem;
-          font-weight: 400;
-          line-height: 1.175;
-          white-space: nowrap;
-        }
-    
-      .ascot-house-4Zm {
-        color: #ffffff;
-        flex-shrink: 0;
-        font-family: Raleway, 'Source Sans Pro';
-        font-size: 1.3696rem;
-        font-weight: 500;
-        line-height: 1.175;
-        margin: 0rem 7.993rem 0.611rem 0rem;
-        white-space: nowrap;
-      }
-      .jl-cilandak-tengah-o1Z {
-        color: #d6d6d6;
-        flex-shrink: 0;
-        font-family: Raleway, 'Source Sans Pro';
-        font-size: 1.0272rem;
-        font-weight: 400;
-        line-height: 1.175;
-        margin-right: 6.8928rem;
-        white-space: nowrap;
-      }
-    
-  
-  .auto-group-g4sj-Tro {
-    align-items: flex-end;
-    display: flex;
-    flex-shrink: 0;
-    margin: 0rem 1.592rem 1.981rem 0rem;
-    width: calc(100% - 1.5926rem);
-  }
-    .best-for-you-bTD {
-      color: #000000;
-      flex-shrink: 0;
-      font-family: Raleway, 'Source Sans Pro';
-      font-size: 1.3696rem;
-      font-weight: 500;
-      line-height: 1.175;
-      margin-right: 16.2536rem;
-      white-space: nowrap;
-    }
-    .see-more-Ku1 {
-      color: #848484;
-      flex-shrink: 0;
-      font-family: Raleway, 'Source Sans Pro';
-      font-size: 1.0272rem;
-      font-weight: 400;
-      line-height: 1.175;
-      margin-bottom: 0.0576rem;
-      white-space: nowrap;
-    }
-  
-  .orchad-house-G3Z {
-    align-items: center;
-    display: flex;
-    flex-shrink: 0;
-    height: 5.992rem;
-    margin: 0rem 4.102rem 2.054rem 0rem;
-    width: calc(100% - 4.1022rem);
-  }
-    .image-bLj {
-      background-color: #efefef;
-      border-radius: 0.856rem;
-      box-shadow: 0 0 0.0856rem rgba(0, 0, 0, 0.0399999991), 0 0.1712rem 0.5136rem rgba(0, 0, 0, 0.0399999991), 0 1.3696rem 2.0544rem rgba(0, 0, 0, 0.0599999987);
-      flex-shrink: 0;
-      height: calc(100% - 0rem);
-      margin: 0rem 1.712rem 0rem 0rem;
-      width: 6.3344rem;
-    }
-      .auto-group-sbzf-vto {
-        height: 5.992rem;
-        object-fit: contain;
-        position: relative;
-        vertical-align: top;
-        width: 6.3344rem;
-      }
-    
-    .auto-group-u1od-ohh {
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      flex-shrink: 0;
-      height: 100%;
-      width: 18.0976rem;
-    }
-      .auto-group-dfxt-ksq {
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        flex-shrink: 0;
-        padding-bottom: 0.3264rem;
-        width: 100%;
-      }
-        .orchad-house-6B1 {
-          color: #000000;
-          flex-shrink: 0;
-          font-family: Raleway, 'Source Sans Pro';
-          font-size: 1.3696rem;
-          font-weight: 500;
-          line-height: 1.175;
-          margin: 0rem 0rem 0.611rem 0.342rem;
-          white-space: nowrap;
-        }
-
-    
-        .rp-2500000000-year-1Ys {
-            color: #0a8ed9;
-            flex-shrink: 0;
-            font-family: Raleway, 'Source Sans Pro';
-            font-size: 1.0272rem;
-            font-weight: 400;
-            line-height: 1.175;
-            white-space: nowrap;
-          }
-        
-        .auto-group-kkko-7ro {
-          align-items: center;
-          display: flex;
-          flex-shrink: 0;
-          height: 2.0544rem;
-          width: 100%;
-        }
-          .bedroom-fdR {
-            align-items: center;
-            display: flex;
-            flex-shrink: 0;
-            height: 100%;
-            margin-right: 1.6191rem;
-          }
-            .icbed-pFR {
-              flex-shrink: 0;
-              height: 2.0544rem;
-              margin-right: 0.6849rem;
-              object-fit: contain;
-              vertical-align: top;
-              width: 2.0544rem;
-            }
-            .bedroom-9oV {
-              color: #848484;
-              flex-shrink: 0;
-              font-family: Raleway, 'Source Sans Pro';
-              font-size: 1.0272rem;
-              font-weight: 400;
-              line-height: 1.175;
-              margin-top: 0.1016rem;
-              white-space: nowrap;
-            }
-          
-          .bathroom-HPu {
-            align-items: center;
-            box-sizing: border-box;
-            display: flex;
-            flex-shrink: 0;
-            height: 100%;
-            padding: 0.342rem 0rem 0.326rem 0.342rem;
-          }
-            .icbath-DYT {
-              flex-shrink: 0;
-              height: 1.3209rem;
-              margin: 0rem 1.027rem 0.065rem 0rem;
-              object-fit: contain;
-              vertical-align: top;
-              width: 1.3696rem;
-            }
-            .bathroom-M8s {
-              color: #848484;
-              flex-shrink: 0;
-              font-family: Raleway, 'Source Sans Pro';
-              font-size: 1.0272rem;
-              font-weight: 400;
-              line-height: 1.175;
-              margin-top: 0.0856rem;
-              white-space: nowrap;
-            }
-          
-    .the-hollies-house-Gmd {
-      align-items: center;
-      display: flex;
-      flex-shrink: 0;
-      height: 5.992rem;
-      margin: 0rem 4.202rem 2.054rem 0rem;
-      width: calc(100% - 4.2022rem);
-    }
-      .image-njy {
-        background-color: #efefef;
-        border-radius: 0.856rem;
-        box-shadow: 0 0 0.0856rem rgba(0, 0, 0, 0.0399999991), 0 0.1712rem 0.5136rem rgba(0, 0, 0, 0.0399999991), 0 1.3696rem 2.0544rem rgba(0, 0, 0, 0.0599999987);
-        flex-shrink: 0;
-        height: 100%;
-        margin-right: 1.712rem;
-        width: 6.3344rem;
-      }
-        .auto-group-jnhd-jfD {
-          height: 5.992rem;
-          object-fit: contain;
-          position: relative;
-          vertical-align: top;
-          width: 6.3344rem;
-        }
-      
-      .auto-group-eaxw-16w {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        flex-shrink: 0;
-        height: 100%;
-        width: 17.9976rem;
-      }
-        .auto-group-q1yz-9yq {
-          box-sizing: border-box;
-          display: flex;
-          flex-direction: column;
-          flex-shrink: 0;
-          padding-bottom: 0.3264rem;
-          width: 100%;
-        }
-          .the-hollies-house-79y {
-            color: #000000;
-            flex-shrink: 0;
-            font-family: Raleway, 'Source Sans Pro';
-            font-size: 1.3696rem;
-            font-weight: 500;
-            line-height: 1.175;
-            margin-bottom: 0.6112rem;
-            white-space: nowrap;
-          }
-          .rp-2000000000-year-qrf {
-            color: #0a8ed9;
-            flex-shrink: 0;
-            font-family: Raleway, 'Source Sans Pro';
-            font-size: 1.0272rem;
-            font-weight: 400;
-            line-height: 1.175;
-            white-space: nowrap;
-          }
-        
-        .auto-group-gvbr-yhy {
-          align-items: center;
-          display: flex;
-          flex-shrink: 0;
-          height: 2.0544rem;
-          width: 100%;
-        }
-          .bedroom-w91 {
-            align-items: center;
-            display: flex;
-            flex-shrink: 0;
-            height: 100%;
-            margin-right: 1.7191rem;
-          }
-            .icbed-Hif {
-              flex-shrink: 0;
-              height: 2.0544rem;
-              margin-right: 0.6849rem;
-              object-fit: contain;
-              vertical-align: top;
-              width: 2.0544rem;
-            }
-            .bedroom-2gF {
-              color: #848484;
-              flex-shrink: 0;
-              font-family: Raleway, 'Source Sans Pro';
-              font-size: 1.0272rem;
-              font-weight: 400;
-              line-height: 1.175;
-              margin-top: 0.1016rem;
-              white-space: nowrap;
-            }
-          
-          .bathroom-Zw5 {
-            align-items: center;
-            box-sizing: border-box;
-            display: flex;
-            flex-shrink: 0;
-            height: 100%;
-            padding: 0.342rem 0rem 0.326rem 0.342rem;
-          }
-            .icbath-i3H {
-              flex-shrink: 0;
-              height: 1.3209rem;
-              margin: 0rem 1.027rem 0.065rem 0rem;
-              object-fit: contain;
-              vertical-align: top;
-              width: 1.3696rem;
-            }
-            .bathroom-EXR {
-              color: #848484;
-              flex-shrink: 0;
-              font-family: Raleway, 'Source Sans Pro';
-              font-size: 1.0272rem;
-              font-weight: 400;
-              line-height: 1.175;
-              margin-top: 0.0856rem;
-              white-space: nowrap;
-            }
-   
-    
-    .sea-breezes-housesea-breezes-house-m1Z {
-      align-items: center;
-      display: flex;
-      flex-shrink: 0;
-      height: 5.992rem;
-      margin: 0rem 4.202rem 2.054rem 0rem;
-      width: calc(100% - 4.2022rem);
-    }
-      .image-eb9 {
-        background-color: #efefef;
-        border-radius: 0.856rem;
-        box-shadow: 0 0 0.0856rem rgba(0, 0, 0, 0.0399999991), 0 0.1712rem 0.5136rem rgba(0, 0, 0, 0.0399999991), 0 1.3696rem 2.0544rem rgba(0, 0, 0, 0.0599999987);
-        flex-shrink: 0;
-        height: 100%;
-        margin-right: 1.712rem;
-        width: 6.3344rem;
-      }
-        .auto-group-up87-nxF {
-          height: 5.992rem;
-          object-fit: contain;
-          position: relative;
-          vertical-align: top;
-          width: 6.3344rem;
-        }
-      
-      .auto-group-jz7u-5Af {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        flex-shrink: 0;
-        height: calc(100% - 0rem);
-        margin-top: 0rem;
-        width: 17.9976rem;
-      }
-        .auto-group-ep3q-buh {
-          box-sizing: border-box;
-          display: flex;
-          flex-direction: column;
-          flex-shrink: 0;
-          padding-bottom: 0.3264rem;
-          width: 100%;
-        }
-          .sea-breezes-house-M8B {
-            color: #000000;
-            flex-shrink: 0;
-            font-family: Raleway, 'Source Sans Pro';
-            font-size: 1.3696rem;
-            font-weight: 500;
-            line-height: 1.175;
-            margin-bottom: 0.6112rem;
-            white-space: nowrap;
-          }
-          .rp-900000000-year-ggF {
-            color: #0a8ed9;
-            flex-shrink: 0;
-            font-family: Raleway, 'Source Sans Pro';
-            font-size: 1.0272rem;
-            font-weight: 400;
-            line-height: 1.175;
-            white-space: nowrap;
-          }
-        
-        .auto-group-pw39-DRH {
-          align-items: center;
-          display: flex;
-          flex-shrink: 0;
-          height: 2.0544rem;
-          width: 100%;
-        }
-
-
-        .bedroom-NZ5 {
-            align-items: center;
-            display: flex;
-            flex-shrink: 0;
-            height: 100%;
-            margin-right: 1.7191rem;
-        }
-            .icbed-vKh {
-              flex-shrink: 0;
-              height: 2.0544rem;
-              margin-right: 0.6849rem;
-              object-fit: contain;
-              vertical-align: top;
-              width: 2.0544rem;
-            }
-            .bedroom-4go {
-              color: #848484;
-              flex-shrink: 0;
-              font-family: Raleway, 'Source Sans Pro';
-              font-size: 1.0272rem;
-              font-weight: 400;
-              line-height: 1.175;
-              margin-top: 0.1016rem;
-              white-space: nowrap;
-            }
-          
-          .bathroom-cCX {
-            align-items: center;
-            box-sizing: border-box;
-            display: flex;
-            flex-shrink: 0;
-            height: 100%;
-            padding: 0.342rem 0rem 0.326rem 0.342rem;
-          }
-            .icbath-wEo {
-              flex-shrink: 0;
-              height: 1.3209rem;
-              margin: 0rem 1.027rem 0.065rem 0rem;
-              object-fit: contain;
-              vertical-align: top;
-              width: 1.3696rem;
-            }
-            .bathroom-Tyq {
-              color: #848484;
-              flex-shrink: 0;
-              font-family: Raleway, 'Source Sans Pro';
-              font-size: 1.0272rem;
-              font-weight: 400;
-              line-height: 1.175;
-              margin-top: 0.0856rem;
-              white-space: nowrap;
-            }
-
-        
-    .little-copse-house-zTy {
-      align-items: center;
-      display: flex;
-      flex-shrink: 0;
-      height: 5.992rem;
-      margin: 0rem 4.202rem 0rem 0rem;
-      width: calc(100% - 4.2022rem);
-    }
-      .image-vcX {
-        background-color: #efefef;
-        border-radius: 0.856rem;
-        box-shadow: 0 0 0.0856rem rgba(0, 0, 0, 0.0399999991), 0 0.1712rem 0.5136rem rgba(0, 0, 0, 0.0399999991), 0 1.3696rem 2.0544rem rgba(0, 0, 0, 0.0599999987);
-        flex-shrink: 0;
-        height: calc(100% - 0rem);
-        margin: 0rem 1.712rem 0rem 0rem;
-        width: 6.3344rem;
-      }
-
-      .auto-group-wezd-GAb {
-        height: 5.992rem;
-        object-fit: contain;
-        position: relative;
-        vertical-align: top;
-        width: 6.3344rem;
-      }
-    
-    .auto-group-7kuh-jK5 {
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      flex-shrink: 0;
-      height: calc(100% - 0rem);
-      margin-top: 0rem;
-      width: 17.9976rem;
-    }
-      .auto-group-vbh1-4s9 {
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        flex-shrink: 0;
-        height: 3.9376rem;
-        padding-bottom: 0.3264rem;
-        width: 100%;
-      }
-        .little-copse-house-1XV {
-          color: #000000;
-          flex-shrink: 0;
-          font-family: Raleway, 'Source Sans Pro';
-          font-size: 1.3696rem;
-          font-weight: 500;
-          line-height: 1.175;
-          margin-bottom: 0.6112rem;
-          white-space: nowrap;
-        }
-        .rp-900000000-year-Lpf {
-          color: #0a8ed9;
-          flex-shrink: 0;
-          font-family: Raleway, 'Source Sans Pro';
-          font-size: 1.0272rem;
-          font-weight: 400;
-          line-height: 1.175;
-          white-space: nowrap;
-        }
-      
-      .auto-group-x5p5-t5V {
-        align-items: center;
-        display: flex;
-        flex-shrink: 0;
-        height: 2.0544rem;
-        width: 100%;
-      }
-        .bedroom-Rr7 {
-          align-items: center;
-          display: flex;
-          flex-shrink: 0;
-          height: 100%;
-          margin-right: 1.7191rem;
-        }
-          .icbed-BqH {
-            flex-shrink: 0;
-            height: 2.0544rem;
-            margin-right: 0.6849rem;
-            object-fit: contain;
-            vertical-align: top;
-            width: 2.0544rem;
-          }
-          .bedroom-jM1 {
-            color: #8e8e8e;
-            flex-shrink: 0;
-            font-family: Raleway, 'Source Sans Pro';
-            font-size: 1.0272rem;
-            font-weight: 400;
-            line-height: 1.175;
-            margin-top: 0.1016rem;
-            white-space: nowrap;
-          }
-    
-        .bathroom-sCK {
-          align-items: center;
-          box-sizing: border-box;
-          display: flex;
-          flex-shrink: 0;
-          height: 100%;
-          padding: 0.342rem 0rem 0.326rem 0.342rem;
-        }
-          .icbath-QT9 {
-            flex-shrink: 0;
-            height: 1.3209rem;
-            margin: 0rem 1.027rem 0.065rem 0rem;
-            object-fit: contain;
-            vertical-align: top;
-            width: 1.3696rem;
-          }
-          .bathroom-8tw {
-            color: #8e8e8e;
-            flex-shrink: 0;
-            font-family: Raleway, 'Source Sans Pro';
-            font-size: 1.0272rem;
-            font-weight: 400;
-            line-height: 1.175;
-            margin-top: 0.0856rem;
-            white-space: nowrap;
-          }
-
-
-
+.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-p91h-tJC .the-hollies-house-Esr {
+  margin-bottom: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.175;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-p91h-tJC .rp-2000000000-year-NDN {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: #0a8ed9;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi {
+  width: 100%;
+  height: 2.4rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi .bedroom-232 {
+  margin-right: 2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi .bedroom-232 .icbed-Mqz {
+  margin-right: 0.8rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi .bedroom-232 .bedroom-iAk {
+  margin-top: 0.1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: #848484;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi .bathroom-TPE {
+  box-sizing: border-box;
+  padding: 0.4rem 0rem 0.4rem 0.4rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi .bathroom-TPE .icbath-xKz {
+  margin: 0rem 1.2rem 0.057rem 0rem;
+  width: 1.6rem;
+  height: 1.5431rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi .bathroom-TPE .bathroom-tjS {
+  margin-top: 0.1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: #848484;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
