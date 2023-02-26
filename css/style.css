@@ -1116,3 +1116,76 @@ width: 31.9581rem;
           height: 2.0544rem;
           width: 100%;
         }
+
+
+        .bedroom-NZ5 {
+            align-items: center;
+            display: flex;
+            flex-shrink: 0;
+            height: 100%;
+            margin-right: 1.7191rem;
+        }
+            .icbed-vKh {
+              flex-shrink: 0;
+              height: 2.0544rem;
+              margin-right: 0.6849rem;
+              object-fit: contain;
+              vertical-align: top;
+              width: 2.0544rem;
+            }
+            .bedroom-4go {
+              color: #848484;
+              flex-shrink: 0;
+              font-family: Raleway, 'Source Sans Pro';
+              font-size: 1.0272rem;
+              font-weight: 400;
+              line-height: 1.175;
+              margin-top: 0.1016rem;
+              white-space: nowrap;
+            }
+          
+          .bathroom-cCX {
+            align-items: center;
+            box-sizing: border-box;
+            display: flex;
+            flex-shrink: 0;
+            height: 100%;
+            padding: 0.342rem 0rem 0.326rem 0.342rem;
+          }
+            .icbath-wEo {
+              flex-shrink: 0;
+              height: 1.3209rem;
+              margin: 0rem 1.027rem 0.065rem 0rem;
+              object-fit: contain;
+              vertical-align: top;
+              width: 1.3696rem;
+            }
+            .bathroom-Tyq {
+              color: #848484;
+              flex-shrink: 0;
+              font-family: Raleway, 'Source Sans Pro';
+              font-size: 1.0272rem;
+              font-weight: 400;
+              line-height: 1.175;
+              margin-top: 0.0856rem;
+              white-space: nowrap;
+            }
+
+        
+    .little-copse-house-zTy {
+      align-items: center;
+      display: flex;
+      flex-shrink: 0;
+      height: 5.992rem;
+      margin: 0rem 4.202rem 0rem 0rem;
+      width: calc(100% - 4.2022rem);
+    }
+      .image-vcX {
+        background-color: #efefef;
+        border-radius: 0.856rem;
+        box-shadow: 0 0 0.0856rem rgba(0, 0, 0, 0.0399999991), 0 0.1712rem 0.5136rem rgba(0, 0, 0, 0.0399999991), 0 1.3696rem 2.0544rem rgba(0, 0, 0, 0.0599999987);
+        flex-shrink: 0;
+        height: calc(100% - 0rem);
+        margin: 0rem 1.712rem 0rem 0rem;
+        width: 6.3344rem;
+      }
