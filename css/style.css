@@ -19,7 +19,7 @@ body {
 }
 
 #myInput {
-  background-position: 10rem 12rem; 
+  background-position: 12rem; 
   background-repeat: no-repeat; 
   width: 100%; 
   font-size: 1rem; 
@@ -38,12 +38,12 @@ body {
 }
 
 #myUL li a {
-  border: 1rem solid #ddd; 
-  margin-top: -1rem; 
+  border: 0,5rem solid #ddd; 
+  margin-top: -2rem; 
   background-color: #f6f6f6; 
-  padding: 4rem; 
+  padding: 0.5rem; 
   text-decoration: none; 
-  font-size: 6rem; 
+  font-size: 2rem; 
   color: black; 
   display: block; 
   visibility: hidden;
@@ -162,7 +162,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-oe1u-THa .icfilter-emN {
+.home-screen-2Vn .auto-group-oe1u-THa .Menu {
   width: 4.8rem;
   height: 4.8rem;
   object-fit: contain;
