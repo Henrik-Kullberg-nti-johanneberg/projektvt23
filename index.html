@@ -22,10 +22,37 @@
           <img class="icnotification-Xep" src="img/nofications.png"/>
         </div>
         <div class="auto-group-oe1u-THa">
-          <div class="search-bar-xEL">
-            <img class="icsearch-SfJ" src="img/seach bar.png"/>
-            <p class="search-address-or-near-you-MXN">Search address, or near you </p>
-          </div>
+          <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+
+          <ul id="myUL">
+            <li><a href="#">Adele</a></li>
+            <li><a href="#">Agnes</a></li>
+          
+            <li><a href="#">Billy</a></li>
+            <li><a href="#">Bob</a></li>
+          
+            <li><a href="#">Calvin</a></li>
+            <li><a href="#">Christina</a></li>
+            <li><a href="#">Cindy</a></li>
+          </ul>
+          <script>
+            function myFunction() {
+                var input, filter, ul, li, a, i, txtValue;
+                input = document.getElementById("myInput");
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("myUL");
+                li = ul.getElementsByTagName("li");
+                for (i = 0; i < li.length; i++) {
+                    a = li[i].getElementsByTagName("a")[0];
+                    txtValue = a.textContent || a.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                    } else {
+                        li[i].style.display = "none";
+                    }
+                }
+            }
+            </script>
           <img class="icfilter-emN" src="img/menu.png"/>
         </div>
         <div class="category-BFW">
@@ -53,7 +80,6 @@
             </div>
             <div class="dreamsvile-house-h6g">
               <div class="icnear-ZPn">
-                <img class="iclocation-TEG" src="./assets/iclocation.png"/>
                 <p class="km-P7v">1.8 km</p>
               </div>
               <p class="dreamsville-house-Vya">Dreamsville House</p>
@@ -62,7 +88,6 @@
           </div>
           <div class="ascot-house-BV2">
             <div class="icnear-JpY">
-              <img class="iclocation-CQ8" src="./assets/iclocation-quA.png"/>
               <p class="km-jQ4">3.0 km</p>
             </div>
             <p class="ascot-house-qT6">Ascot House</p>
@@ -84,11 +109,9 @@
             </div>
             <div class="auto-group-itmq-Fqa">
               <div class="bedroom-zYG">
-                <img class="icbed-u9S" src=".Bathrooom"/>
                 <p class="bedroom-1yA">6 Bedroom</p>
               </div>
               <div class="bathroom-ALG">
-                <img class="icbath-uYk" src="./assets/icbath-hYt.png"/>
                 <p class="bathroom-qhJ">4 Bathroom</p>
               </div>
             </div>
@@ -105,11 +128,9 @@
             </div>
             <div class="auto-group-vdp3-TVi">
               <div class="bedroom-232">
-                <img class="icbed-Mqz" src="Badrum"/>
                 <p class="bedroom-iAk">5 Bedroom</p>
               </div>
               <div class="bathroom-TPE">
-                <img class="icbath-xKz" src="./assets/icbath-Y9E.png"/>
                 <p class="bathroom-tjS">2 Bathroom</p>
               </div>
             </div>

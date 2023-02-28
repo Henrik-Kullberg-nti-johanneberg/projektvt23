@@ -17,6 +17,45 @@ body {
   width: fit-content;
 
 }
+
+#myInput {
+  background-position: 10rem 12rem; 
+  background-repeat: no-repeat; 
+  width: 100%; 
+  font-size: 1rem; 
+  padding: 1rem 2rem 1rem 4rem; 
+  border: 1px solid #ddd; 
+  margin-bottom: 1rem; 
+  
+}
+
+#myUL {
+  
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+ 
+}
+
+#myUL li a {
+  border: 1rem solid #ddd; 
+  margin-top: -1rem; 
+  background-color: #f6f6f6; 
+  padding: 4rem; 
+  text-decoration: none; 
+  font-size: 6rem; 
+  color: black; 
+  display: block; 
+  visibility: hidden;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; 
+  visibility: hidden;
+}
+
+
+
 .home-screen-2Vn {
   box-sizing: border-box;
   padding: 2.4rem 0rem 3.1rem 2rem;
@@ -713,3 +752,5 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
+
+
