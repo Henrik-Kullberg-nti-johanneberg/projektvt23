@@ -3,10 +3,7 @@
 html {
 	font: size 100%;
 }
-* {
-	margin: 0;
-	padding: 0;
-}
+
 ul, li {
 	list-style: none;
 }
@@ -56,7 +53,7 @@ body {
 
 
 
-.home-screen-2Vn {
+.home-screen {
   box-sizing: border-box;
   padding: 2.4rem 0rem 3.1rem 2rem;
   width: 100%;
@@ -68,7 +65,7 @@ body {
   background-color: #ffffff;
   border-radius: 2rem;
 }
-.home-screen-2Vn .auto-group-acmd-Pje {
+.home-screen .Custom-group {
   margin: 0rem 2rem 2.2rem 0rem;
   width: calc(100% - 2rem);
   height: 4.7rem;
@@ -76,13 +73,13 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-acmd-Pje .location-QHN {
+.home-screen .Custom-group .location-2 {
   margin-right: 21.5rem;
   width: 9.6rem;
   height: 100%;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-acmd-Pje .location-QHN .location-XMz {
+.home-screen .Custom-group .location-2 .location-3 {
   margin-bottom: 0.7rem;
   font-size: 1.2rem;
   font-weight: 400;
@@ -91,12 +88,12 @@ body {
   font-family: Raleway, 'Source Sans Pro';
   white-space: nowrap;
 }
-.home-screen-2Vn .auto-group-acmd-Pje .location-QHN .auto-group-xuvr-bse {
+.home-screen .Custom-group .location-2 .Custom-group-2 {
   width: 100%;
   display: flex;
   align-items: center;
 }
-.home-screen-2Vn .auto-group-acmd-Pje .location-QHN .auto-group-xuvr-bse .jakarta-udS {
+.home-screen .Custom-group .location-2 .Custom-group-2 .Karta {
   margin: 0rem 0.4rem 0.1rem 0rem;
   font-size: 2rem;
   font-weight: 500;
@@ -106,7 +103,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-acmd-Pje .location-QHN .auto-group-xuvr-bse .icarrow-down-2TA {
+.home-screen .Custom-group .location-2 .Custom-group-2 .icarrow-down-2TA {
   margin-top: 0.1rem;
   width: 2.4rem;
   height: 2.4rem;
@@ -114,7 +111,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-acmd-Pje .icnotification-Xep {
+.home-screen .Custom-group .picture-3 {
   margin-bottom: 0.7rem;
   width: 2.4rem;
   height: 2.4rem;
@@ -123,7 +120,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-oe1u-THa {
+.home-screen .Custom-group-3 {
   margin: 0rem 2rem 1.8rem 0rem;
   width: calc(100% - 2rem);
   height: 4.8rem;
@@ -131,7 +128,7 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-oe1u-THa .search-bar-xEL {
+.home-screen .Custom-group-3 .search-bar-xEL {
   margin-right: 0.8rem;
   box-sizing: border-box;
   padding: 1.2rem 6.9rem 1.2rem 1.647rem;
@@ -144,7 +141,7 @@ body {
   border-radius: 1rem;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-oe1u-THa .search-bar-xEL .icsearch-SfJ {
+.home-screen .Custom-group-3 .search-bar-xEL .icsearch-SfJ {
   margin-right: 1.0819rem;
   width: 2.4708rem;
   height: 2.4rem;
@@ -152,7 +149,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-oe1u-THa .search-bar-xEL .search-address-or-near-you-MXN {
+.home-screen .Custom-group-3 .search-bar-xEL .search-address-or-near-you-MXN {
   margin-top: 0.1rem;
   font-size: 1.2rem;
   font-weight: 400;
@@ -162,7 +159,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-oe1u-THa .Menu {
+.home-screen .Custom-group-3 .Menu {
   width: 4.8rem;
   height: 4.8rem;
   object-fit: contain;
@@ -170,7 +167,7 @@ body {
   border-radius: 1rem;
   flex-shrink: 0;
 }
-.home-screen-2Vn .category-BFW {
+.home-screen .category-0 {
   margin-bottom: 2.7rem;
   width: 40.5rem;
   height: 4.1rem;
@@ -179,14 +176,14 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-.home-screen-2Vn .category-BFW .auto-group-g5yz-6dN {
+.home-screen .category-0 .Custom-group-3 {
   margin-top: 0.2rem;
   width: 6.9rem;
   height: 3.9rem;
   position: relative;
   flex-shrink: 0;
 }
-.home-screen-2Vn .category-BFW .auto-group-g5yz-6dN .shadow-dNQ {
+.home-screen .category-0 .Custom-group-3 .shadow-face {
   width: 5.7rem;
   height: 2rem;
   position: absolute;
@@ -196,7 +193,7 @@ body {
   background: linear-gradient(-180deg, rgba(159, 217, 250, 0.2399999946) -22.93%, rgba(9, 141, 216, 0.2399999946) 131.41%);
   border-radius: 1rem;
 }
-.home-screen-2Vn .category-BFW .auto-group-g5yz-6dN .house-active-6Fz {
+.home-screen .category-0 .Custom-group-3 .house-active-1 {
   width: 6.9rem;
   height: 3.4rem;
   position: absolute;
@@ -216,7 +213,7 @@ body {
   background: linear-gradient(-180deg, #9fd9fa -22.93%, #098dd8 131.41%);
   border-radius: 1rem;
 }
-.home-screen-2Vn .category-BFW .apartment-GZn {
+.home-screen .category-0 .apartment-fase1 {
   margin: 0.2rem 0rem 0.5rem 0rem;
   width: 9.2rem;
   height: calc(100% - 0.7rem);
@@ -235,7 +232,7 @@ body {
   border-radius: 1rem;
   flex-shrink: 0;
 }
-.home-screen-2Vn .category-BFW .hotel-YXJ {
+.home-screen .category-0 .hotel-fase1 {
   margin: 0.2rem 0rem 0.5rem 0rem;
   width: 6.3rem;
   height: calc(100% - 0.7rem);
@@ -254,7 +251,7 @@ body {
   border-radius: 1rem;
   flex-shrink: 0;
 }
-.home-screen-2Vn .category-BFW .villa-P28 {
+.home-screen .category-0 .villa-P1 {
   margin: 0.2rem 0rem 0.5rem 0rem;
   width: 5.6rem;
   height: calc(100% - 0.7rem);
@@ -273,14 +270,14 @@ body {
   border-radius: 1rem;
   flex-shrink: 0;
 }
-.home-screen-2Vn .category-BFW .auto-group-hert-EHe {
+.home-screen .category-0 .Custom-group-4 {
   margin-bottom: 0.3rem;
   width: 7.7rem;
   height: 3.8rem;
   position: relative;
   flex-shrink: 0;
 }
-.home-screen-2Vn .category-BFW .auto-group-hert-EHe .cottage-yFE {
+.home-screen .category-0 .Custom-group-4 .cottage-A1 {
   width: 7.7rem;
   height: 3.4rem;
   position: absolute;
@@ -299,7 +296,7 @@ body {
   background-color: #f6f6f6;
   border-radius: 1rem;
 }
-.home-screen-2Vn .category-BFW .auto-group-hert-EHe .shadow-dag {
+.home-screen .category-0 .Custom-group-4 .shadow-dag {
   width: 2rem;
   height: 3.8rem;
   position: absolute;
@@ -307,34 +304,34 @@ body {
   top: 0;
   background: linear-gradient(-90deg, #ffffff 100%, rgba(255, 255, 255, 0) -0%);
 }
-.home-screen-2Vn .auto-group-mwbd-Ljz {
+.home-screen .Custom-group-5 {
   margin: 0rem 2rem 2.4rem 0rem;
   width: calc(100% - 2rem);
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-mwbd-Ljz .near-from-you-V76 {
+.home-screen .Custom-group-5 .near-from-you {
   margin-right: 17.3rem;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.175;
   color: #000000;
-  font-family: Raleway, 'Source Sans Pro';
+  font-family: 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-mwbd-Ljz .see-more-CGQ {
+.home-screen .Custom-group-5 .see-more-CGQ {
   margin-top: 0.2rem;
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.175;
   color: #848484;
-  font-family: Raleway, 'Source Sans Pro';
+  font-family:  'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-sgjh-7uA {
+.home-screen .auto-group-sgjh-7uA {
   margin-bottom: 2rem;
   width: 100%;
   height: 28.4rem;
@@ -342,14 +339,14 @@ body {
   align-items: flex-start;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-sgjh-7uA .auto-group-8ccw-s7e {
+.home-screen .auto-group-sgjh-7uA .auto-group-8ccw-s7e {
   margin-right: 2.4rem;
   width: 22.2rem;
   height: 100%;
   position: relative;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-sgjh-7uA .auto-group-8ccw-s7e .shadow-QtG {
+.home-screen .auto-group-sgjh-7uA .auto-group-8ccw-s7e .shadow-QtG {
   width: 18.2rem;
   height: 5.4rem;
   position: absolute;
@@ -359,7 +356,7 @@ body {
   background-color: rgba(0, 0, 0, 0.1000000015);
   border-radius: 2rem;
 }
-.home-screen-2Vn .auto-group-sgjh-7uA .auto-group-8ccw-s7e .dreamsvile-house-h6g {
+.home-screen .auto-group-sgjh-7uA .auto-group-8ccw-s7e .dreamsvile-house-h6g {
   box-sizing: border-box;
   padding: 2rem 1.6rem 1.5rem 2rem;
   width: 22.2rem;
@@ -377,7 +374,7 @@ body {
   background: linear-gradient(180deg, rgba(12, 12, 12, 0) 37.57%, rgba(0, 0, 0, 0.8000000119) 100%);
   border-radius: 2rem;
 }
-.home-screen-2Vn .auto-group-sgjh-7uA .auto-group-8ccw-s7e .dreamsvile-house-h6g .icnear-ZPn {
+.home-screen .auto-group-sgjh-7uA .auto-group-8ccw-s7e .dreamsvile-house-h6g .icnear-ZPn {
   margin: 0rem 0rem 17.1rem 11.3rem;
   box-sizing: border-box;
   padding: 0.5rem 1rem 0.4rem 1.1rem;
@@ -390,7 +387,7 @@ body {
   border-radius: 2rem;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-sgjh-7uA .auto-group-8ccw-s7e .dreamsvile-house-h6g .icnear-ZPn .iclocation-TEG {
+.home-screen .auto-group-sgjh-7uA .auto-group-8ccw-s7e .dreamsvile-house-h6g .icnear-ZPn .iclocation-TEG {
   margin: 0rem 0.7rem 0.1rem 0rem;
   width: 1rem;
   height: 1.2rem;
@@ -398,7 +395,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-sgjh-7uA .auto-group-8ccw-s7e .dreamsvile-house-h6g .icnear-ZPn .km-P7v {
+.home-screen .auto-group-sgjh-7uA .auto-group-8ccw-s7e .dreamsvile-house-h6g .icnear-ZPn .km-P7v {
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.175;
@@ -407,27 +404,27 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-sgjh-7uA .auto-group-8ccw-s7e .dreamsvile-house-h6g .dreamsville-house-Vya {
+.home-screen .auto-group-sgjh-7uA .auto-group-8ccw-s7e .dreamsvile-house-h6g .dreamsville-house-Vya {
   margin: 0rem 4.5rem 0.8rem 0rem;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.175;
   color: #ffffff;
-  font-family: Raleway, 'Source Sans Pro';
+  font-family:  'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-sgjh-7uA .auto-group-8ccw-s7e .dreamsvile-house-h6g .jl-sultan-iskandar-muda-2Cp {
+.home-screen .auto-group-sgjh-7uA .auto-group-8ccw-s7e .dreamsvile-house-h6g .jl-sultan-iskandar-muda-2Cp {
   margin-right: 5.1rem;
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.175;
   color: #d6d6d6;
-  font-family: Raleway, 'Source Sans Pro';
+  font-family:  'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-sgjh-7uA .ascot-house-BV2 {
+.home-screen .auto-group-sgjh-7uA .ascot-house-BV2 {
   box-sizing: border-box;
   padding: 2rem 1.4rem 1.5rem 2rem;
   width: 22.2rem;
@@ -442,7 +439,7 @@ body {
   border-radius: 2rem;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-sgjh-7uA .ascot-house-BV2 .icnear-JpY {
+.home-screen .auto-group-sgjh-7uA .ascot-house-BV2 .icnear-JpY {
   margin: 0rem 0rem 17.1rem 11.3rem;
   box-sizing: border-box;
   padding: 0.5rem 1rem 0.4rem 1.1rem;
@@ -455,7 +452,7 @@ body {
   border-radius: 2rem;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-sgjh-7uA .ascot-house-BV2 .icnear-JpY .iclocation-CQ8 {
+.home-screen .auto-group-sgjh-7uA .ascot-house-BV2 .icnear-JpY .iclocation-CQ8 {
   margin: 0rem 0.7rem 0.1rem 0rem;
   width: 1rem;
   height: 1.2rem;
@@ -463,62 +460,62 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-sgjh-7uA .ascot-house-BV2 .icnear-JpY .km-jQ4 {
+.home-screen .auto-group-sgjh-7uA .ascot-house-BV2 .icnear-JpY .km-jQ4 {
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.175;
   color: #ffffff;
-  font-family: Raleway, 'Source Sans Pro';
+  font-family:  'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-sgjh-7uA .ascot-house-BV2 .ascot-house-qT6 {
+.home-screen .auto-group-sgjh-7uA .ascot-house-BV2 .ascot-house-qT6 {
   margin: 0rem 9.3rem 0.8rem 0rem;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.175;
   color: #ffffff;
-  font-family: Raleway, 'Source Sans Pro';
+  font-family:  'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-sgjh-7uA .ascot-house-BV2 .jl-cilandak-tengah-8h6 {
+.home-screen .auto-group-sgjh-7uA .ascot-house-BV2 .jl-cilandak-tengah-8h6 {
   margin-right: 8.1rem;
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.175;
   color: #d6d6d6;
-  font-family: Raleway, 'Source Sans Pro';
+  font-family:  'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-skh5-mzx {
+.home-screen .auto-group-skh5-mzx {
   margin: 0rem 2rem 2.4rem 0rem;
   width: calc(100% - 2rem);
   display: flex;
   align-items: flex-end;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-skh5-mzx .best-for-you-U8g {
+.home-screen .auto-group-skh5-mzx .best-for-you-U8g {
   margin-right: 19rem;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.175;
   color: #000000;
-  font-family: Raleway, 'Source Sans Pro';
+  font-family:  'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .auto-group-skh5-mzx .see-more-Qo2 {
+.home-screen .auto-group-skh5-mzx .see-more-Qo2 {
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.175;
   color: #848484;
-  font-family: Raleway, 'Source Sans Pro';
+  font-family:  'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .orchad-house-MiG {
+.home-screen .orchad-house-MiG {
   margin: 0rem 5rem 2.4rem 0rem;
   width: calc(100% - 5rem);
   height: 7rem;
@@ -526,7 +523,7 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-.home-screen-2Vn .orchad-house-MiG .image-ty6 {
+.home-screen .orchad-house-MiG .image-ty6 {
   margin-right: 2rem;
   width: 7.4rem;
   height: 100%;
@@ -535,14 +532,14 @@ body {
   border-radius: 1rem;
   flex-shrink: 0;
 }
-.home-screen-2Vn .orchad-house-MiG .image-ty6 .auto-group-brwy-Foe {
+.home-screen .orchad-house-MiG .image-ty6 .auto-group-brwy-Foe {
   width: 7.4rem;
   height: 7rem;
   position: relative;
   object-fit: contain;
   vertical-align: top;
 }
-.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi {
+.home-screen .orchad-house-MiG .auto-group-5i9m-tbi {
   width: 21.1rem;
   height: 100%;
   align-items: center;
@@ -550,7 +547,7 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 }
-.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-bxzv-3Uc {
+.home-screen .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-bxzv-3Uc {
   box-sizing: border-box;
   padding-bottom: 0.4rem;
   width: 100%;
@@ -558,40 +555,40 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 }
-.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-bxzv-3Uc .orchad-house-bW8 {
+.home-screen .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-bxzv-3Uc .orchad-house-bW8 {
   margin: 0rem 0rem 0.8rem 0.4rem;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.175;
   color: #000000;
-  font-family: Raleway, 'Source Sans Pro';
+  font-family:  'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-bxzv-3Uc .rp-2500000000-year-7zG {
+.home-screen .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-bxzv-3Uc .rp-2500000000-year-7zG {
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.175;
   color: #0a8ed9;
-  font-family: Raleway, 'Source Sans Pro';
+  font-family:  'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa {
+.home-screen .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa {
   width: 100%;
   height: 2.4rem;
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa .bedroom-zYG {
+.home-screen .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa .bedroom-zYG {
   margin-right: 1.9rem;
   height: 100%;
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa .bedroom-zYG .icbed-u9S {
+.home-screen .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa .bedroom-zYG .icbed-u9S {
   margin-right: 0.8rem;
   width: 2.4rem;
   height: 2.4rem;
@@ -599,17 +596,17 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa .bedroom-zYG .bedroom-1yA {
+.home-screen .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa .bedroom-zYG .bedroom-1yA {
   margin-top: 0.1rem;
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.175;
   color: #848484;
-  font-family: Raleway, 'Source Sans Pro';
+  font-family:  'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa .bathroom-ALG {
+.home-screen .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa .bathroom-ALG {
   box-sizing: border-box;
   padding: 0.4rem 0rem 0.4rem 0.4rem;
   height: 100%;
@@ -617,7 +614,7 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa .bathroom-ALG .icbath-uYk {
+.home-screen .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa .bathroom-ALG .icbath-uYk {
   margin: 0rem 1.2rem 0.057rem 0rem;
   width: 1.6rem;
   height: 1.5431rem;
@@ -625,17 +622,17 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.home-screen-2Vn .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa .bathroom-ALG .bathroom-qhJ {
+.home-screen .orchad-house-MiG .auto-group-5i9m-tbi .auto-group-itmq-Fqa .bathroom-ALG .bathroom-qhJ {
   margin-top: 0.1rem;
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.175;
   color: #848484;
-  font-family: Raleway, 'Source Sans Pro';
+  font-family:  'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .the-hollies-house-Ltx {
+.home-screen .the-hollies-house-Ltx {
   margin-right: 5rem;
   width: calc(100% - 5rem);
   height: 7rem;
@@ -643,7 +640,7 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-.home-screen-2Vn .the-hollies-house-Ltx .image-67S {
+.home-screen .the-hollies-house-Ltx .image-67S {
   margin-right: 2rem;
   width: 7.4rem;
   height: 100%;
@@ -652,14 +649,14 @@ body {
   border-radius: 1rem;
   flex-shrink: 0;
 }
-.home-screen-2Vn .the-hollies-house-Ltx .image-67S .auto-group-dtet-r6c {
+.home-screen .the-hollies-house-Ltx .image-67S .auto-group-dtet-r6c {
   width: 7.4rem;
   height: 7rem;
   position: relative;
   object-fit: contain;
   vertical-align: top;
 }
-.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA {
+.home-screen .the-hollies-house-Ltx .auto-group-rhkb-vsA {
   width: 21.1rem;
   height: 100%;
   align-items: center;
@@ -667,7 +664,7 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 }
-.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-p91h-tJC {
+.home-screen .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-p91h-tJC {
   box-sizing: border-box;
   padding-bottom: 0.4rem;
   width: 100%;
@@ -675,40 +672,40 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 }
-.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-p91h-tJC .the-hollies-house-Esr {
+.home-screen .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-p91h-tJC .the-hollies-house-Esr {
   margin-bottom: 0.8rem;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.175;
   color: #000000;
-  font-family: Raleway, 'Source Sans Pro';
+  font-family:  'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-p91h-tJC .rp-2000000000-year-NDN {
+.home-screen .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-p91h-tJC .rp-2000000000-year-NDN {
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.175;
   color: #0a8ed9;
-  font-family: Raleway, 'Source Sans Pro';
+  font-family:  'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi {
+.home-screen .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi {
   width: 100%;
   height: 2.4rem;
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi .bedroom-232 {
+.home-screen .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi .bedroom-232 {
   margin-right: 2rem;
   height: 100%;
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi .bedroom-232 .icbed-Mqz {
+.home-screen .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi .bedroom-232 .icbed-Mqz {
   margin-right: 0.8rem;
   width: 2.4rem;
   height: 2.4rem;
@@ -716,17 +713,17 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi .bedroom-232 .bedroom-iAk {
+.home-screen .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi .bedroom-232 .bedroom-iAk {
   margin-top: 0.1rem;
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.175;
   color: #848484;
-  font-family: Raleway, 'Source Sans Pro';
+  font-family:  'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi .bathroom-TPE {
+.home-screen .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi .bathroom-TPE {
   box-sizing: border-box;
   padding: 0.4rem 0rem 0.4rem 0.4rem;
   height: 100%;
@@ -734,7 +731,7 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi .bathroom-TPE .icbath-xKz {
+.home-screen .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi .bathroom-TPE .icbath-xKz {
   margin: 0rem 1.2rem 0.057rem 0rem;
   width: 1.6rem;
   height: 1.5431rem;
@@ -742,13 +739,13 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.home-screen-2Vn .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi .bathroom-TPE .bathroom-tjS {
+.home-screen .the-hollies-house-Ltx .auto-group-rhkb-vsA .auto-group-vdp3-TVi .bathroom-TPE .bathroom-tjS {
   margin-top: 0.1rem;
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.175;
   color: #848484;
-  font-family: Raleway, 'Source Sans Pro';
+  font-family:  'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
