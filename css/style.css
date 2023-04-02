@@ -187,10 +187,9 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #39ab3f;
 }
 
-/* Style the container/contact section */
 .container {
   border-radius: 5px;
   background-color: transparent;
@@ -199,19 +198,22 @@ input[type=submit]:hover {
 
 
 .column {
-  float: left;
+  float: auto,left;
   width: 50%;
   margin-top: 3px;
   padding: 10px;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
+
 }
 
+label{
+  color: #ffffff;
+}
 
 @media screen and (max-width: 400px) {
   .column, input[type=submit] {
@@ -220,3 +222,105 @@ input[type=submit]:hover {
   }
 }
 
+* {box-sizing: border-box}
+
+.container {
+  padding: 16px;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px transparent;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+.signin {
+  background-color: #fe92e3;
+  text-align: center;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
