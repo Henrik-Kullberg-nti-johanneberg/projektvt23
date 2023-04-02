@@ -4,66 +4,6 @@ html {
   height: 100%;
 }
 
-
-body#index {
-  background-color: #2f3035;
-  background-image: url(img/dreamhouse-copy.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-body#menu{
-
-  background-color: #2f3035;
-  background-image: url(img/bakgrundsbild2.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
-
-
-body#order{
-
-  background-color: #2f3035;
-  background-image: url(img/bakgrundsbild3..png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
-
-body#map{
-
-  background-color: #2f3035;
-  background-image: url(img/bakgrundsbild4.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
-
-body#realtime{
-
-  background-color: #2f3035;
-  background-image: url(img/bakgrundsbild5.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
-
-body#contact{
-
-  background-color: #2f3035;
-  background-image: url(img/bakgrundcalm1.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
-
 .maps {
   padding-bottom: 100px;
   padding-top: 100px;
@@ -164,6 +104,69 @@ footer p {
   
 }
 
+/*start of links*/
+
+body#index {
+  background-color: #2f3035;
+  background-image: url(img/dreamhouse-copy.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body#menu{
+
+  background-color: #2f3035;
+  background-image: url(img/bakgrundsbild2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+body#order{
+
+  background-color: #2f3035;
+  background-image: url(img/bakgrundsbild3..png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+body#map{
+
+  background-color: #2f3035;
+  background-image: url(img/bakgrundsbild4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+body#realtime{
+
+  background-color: #2f3035;
+  background-image: url(img/bakgrundsbild5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+body#contact{
+
+  background-color: #2f3035;
+  background-image: url(img/bakgrundcalm1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+/* end links to diffrent html*/
+
+
 * {
   box-sizing: content-box;
 }
@@ -171,7 +174,7 @@ footer p {
 /* Style inputs */
 input[type=text], select, textarea {
   width: 100%;
-  padding: 12px;
+  padding: 12px 20px;
   border: hidden;
   margin-top: 6px;
   margin-bottom: 16px;
@@ -270,57 +273,191 @@ hr {
   text-align: center;
 }
 
-.modal {
-  display: none; 
-  position: fixed; 
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
+/*Start of already have an acount*/
+
+
+form {
+  border: 3px transparent;
 }
 
 
-.modal-content {
-  background-color: #fefefe;
-  margin: 5px auto; /* 15% from the top and centered */
-  border: 1px solid #888;
-  width: 80%; 
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 
 
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+/*End of already have an acount*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Remove margins and padding list */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+
+ul li:hover {
+  background: #ddd;
+}
+
+ 
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* Add a "checked" */
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+/* Style close button */
 .close {
   position: absolute;
-  right: 25px;
+  right: 0;
   top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
+  padding: 12px 16px 12px 16px;
 }
 
+.close:hover {
+  background-color: none;
+  color: white;
+}
 
-.close:hover,
-.close:focus {
-  color: red;
+/* Style header */
+.header {
+  background-color: transparent;
+  padding: 30px 40px;
+  color: rgba(255, 255, 255, 0.829);
+  text-align: center;
+}
+
+/* Clear */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+/* "Add" */
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
   cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
 }
 
-
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)}
-  to {-webkit-transform: scale(1)}
-}
-
-@keyframes animatezoom {
-  from {transform: scale(0)}
-  to {transform: scale(1)}
+.addBtn:hover {
+  background-color: #bbb;
 }
