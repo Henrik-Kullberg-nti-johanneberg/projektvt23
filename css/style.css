@@ -169,6 +169,7 @@ body#contact{
 
 * {
   box-sizing: content-box;
+  
 }
 
 /* Style inputs */
@@ -228,6 +229,8 @@ label{
 * {box-sizing: border-box}
 
 .container {
+  cursor: pointer;
+  position: relative;
   padding: 16px;
 }
 
@@ -252,6 +255,13 @@ hr {
   margin-bottom: 25px;
 }
 
+.iframe {
+  background-color: #888;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
 
 .registerbtn {
   background-color: #04AA6D;
@@ -327,6 +337,8 @@ img.avatar {
 
 
 .container {
+  cursor: pointer;
+  position: relative;
   padding: 16px;
 }
 
@@ -348,11 +360,8 @@ span.psw {
 
 /*End of already have an acount*/
 
-* {
-  box-sizing: border-box;
-}
+/* Start of wish list*/
 
-/* Remove margins and padding list */
 ul {
   margin: 0;
   padding: 0;
@@ -433,7 +442,6 @@ ul li.checked::before {
   clear: both;
 }
 
-/* input */
 input {
   margin: 0;
   border: none;
@@ -444,7 +452,7 @@ input {
   font-size: 16px;
 }
 
-/* "Add" */
+/* Add btn */
 .addBtn {
   padding: 10px;
   width: 25%;
@@ -461,3 +469,5 @@ input {
 .addBtn:hover {
   background-color: #bbb;
 }
+
+/* End of wish list*/

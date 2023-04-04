@@ -1,15 +1,6 @@
 // Denna fil skall innehålla JavaScript (JS)
 
 
-const hamburger = document.querySelector("#hamburger");
-const nav =document.querySelector ("nav"); 
-
-hamburger.addEventListener('click', toggleMenu);
-
-function toggleMenu () {
-    nav.classList.toggle("active");
-}
-
 
 var modal = document.getElementById('id01');
 
@@ -18,6 +9,8 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+/* Start Wish list*/
 
 var myNodelist = document.getElementsByTagName("LI");
 var i;
@@ -74,3 +67,4 @@ function newElement() {
   }
 }
 
+/* End wish list */
