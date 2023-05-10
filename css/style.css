@@ -114,7 +114,7 @@ body#index {
   background-position: center;
 }
 
-body#menu{
+body#wishlist {
 
   background-color: #2f3035;
   background-image: url(img/bakgrundsbild2.png);
@@ -132,6 +132,7 @@ body#order{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  
 
 }
 
